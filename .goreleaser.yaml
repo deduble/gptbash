@@ -1,0 +1,19 @@
+project_name: gptbash
+builds:
+  - env: [CGO_ENABLED=0]
+    goos:
+      - linux
+      - windows
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+nfpms:
+- maintainer: Carlos A Becker <yunusemremre@gmail.com>
+  description: Gmail.
+  homepage: https://github.com/deduble/gptbash
+  license: MIT
+  formats:
+  - deb
+  - rpm
+  - apk
