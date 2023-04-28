@@ -40,7 +40,7 @@ func main() {
 		prompt = strings.TrimSpace(prompt)
 	}
 
-	fmt.Printf("Prompt: %s", prompt)
+	fmt.Printf("Prompt: %s\n", prompt)
 
 	// Send the prompt to the OpenAI API and get the response message
 	response, err := client.CreateCompletion(
