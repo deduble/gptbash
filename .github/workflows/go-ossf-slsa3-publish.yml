@@ -28,7 +28,7 @@ jobs:
     permissions:
       id-token: write # To sign.
       contents: write # To upload release assets.
-      actions: read write   # To read workflow path.
+      actions: read   # To read workflow path.
     strategy:
       matrix:
         os:
