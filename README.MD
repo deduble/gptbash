@@ -1,5 +1,3 @@
-Sure! Here's an example README.md you can use:
-
 # GPTBash
 
 GPTBash is a command line tool that converts natural language instructions into executable commands using the power of [OpenAI](https://openai.com/).
